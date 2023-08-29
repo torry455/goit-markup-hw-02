@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: var(--f-family);
+    font-family: var(--f-family), var(--f-family-primary), sans-serif;
     color: var(--c-brand);
     background-color: var(--c-background-light);
  
@@ -24,6 +24,8 @@ body {
     text-transform: uppercase;
     font-size: 18px;
     display: flex;
+    font-weight: 700;
+    line-height: 21px;
 }
 
 .logo .web {
@@ -45,8 +47,9 @@ body {
     height: 48px;
     text-decoration: none;
     list-style: none;
-    font-size: 16px;
     display: flex;
+    font-weight: 500;
+    line-height: 24px;
     
 }
 
@@ -59,20 +62,19 @@ body {
     color: var(--c-primary);
     text-decoration: none;
     list-style: none;
-    font-size: 16px;
     display: flex;
+    font-weight: 400;
+    line-height: 24px;
 }
 
-.nav-contacts:hover {
+.nav-contacts:hover,
+.nav-contacts:focus {
     color: var(--c-hover);
 
 }
 
 .hero-section {
     background-color: var(--c-brand);
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
 }
 
 .hero-title {
@@ -80,16 +82,15 @@ body {
     font-size: 56px;
     font-weight: 700;
     letter-spacing: 1.12px;
-    text-align: center;
     line-height: 60px;
 }
 
 .button-primary {
     color: #FFFFFF;
     background-color: var(--c-secondary);
-    font-size: 16px;
-    border-radius: 4px;
-    padding: 16px 32px;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
 }
 
 .button-primary:hover {
@@ -100,11 +101,16 @@ body {
     color: var(--c-brand);
     font-size: 20px;
     letter-spacing: 0.4px;
+    font-weight: 500;
+    line-height: 24px;
 }
 
 p {
     color: var(--c-primary);
+    font-size: 16px;
     letter-spacing: 0.32px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 .team-title,
@@ -112,6 +118,8 @@ p {
     color: var(--c-brand);
     font-size: 36px;
     letter-spacing: 0.72px;
+    font-weight: 700;
+    line-height: 40px;
     
 }
 
@@ -120,6 +128,8 @@ p {
     color: var(--c-brand);
     font-size: 20px;
     letter-spacing: 0.4px;
+    line-height: 24px;
+    font-weight: 500;
 }
 
 .footer {
@@ -131,12 +141,13 @@ p {
     text-decoration: none;
     text-transform: uppercase;
     font-family: var(--f-family-primary);
+    font-weight: 700;
+    line-height: 21px;
 }
 .web-footer {
     color: var(--c-secondary);
     width: 44px;
     height: 21px;
-
     text-decoration: none;
 }
 
@@ -149,4 +160,6 @@ p {
 
 .footer-text {
     color: var(--c-background);
+    font-weight: 400;
+    line-height: 24px;
 }
