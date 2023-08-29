@@ -43,7 +43,7 @@ body {
 }
 
 .nav-link {
-    color: var(--c-brand);
+    color: red;
     height: 48px;
     text-decoration: none;
     list-style: none;
