@@ -129,6 +129,11 @@ body {
     background-color: var(--c-background);
 }
 
+.member-title,
+.work-text {
+    background-color: var(--c-background-light);
+}
+
 .team-title,
 .portfolio-title {
     color: var(--c-brand);
