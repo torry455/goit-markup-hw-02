@@ -33,21 +33,16 @@ body {
 
 .logo .web {
     color: var(--c-secondary);
-    width: 44px;
-    height: 21px;
     text-decoration: none;
 }
 
 .logo .studio {
     color: var(--c-brand);
-    width: 71px;
-    height: 21px;
     text-decoration: none;
 }
 
 .nav-link {
     color: var(--c-brand);
-    height: 48px;
     text-decoration: none;
     list-style: none;
     font-weight: 500;
@@ -174,7 +169,7 @@ body {
 
 .footer-logo {
     color: var(--c-logo);
-    font-family: var(--f-family-primary) sans-serif;
+    font-family: var(--f-family-primary), sans-serif;
     font-size: 18px;
     text-decoration: none;
     text-transform: uppercase;
@@ -184,15 +179,11 @@ body {
 }
 .web-footer {
     color: var(--c-logo);
-    width: 44px;
-    height: 21px;
     text-decoration: none;
 }
 
 .studio-footer {
     color: var(--c-background);
-    width: 71px;
-    height: 21px;
     text-decoration: none;
 }
 
