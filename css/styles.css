@@ -129,6 +129,10 @@ body {
     background-color: var(--c-background);
 }
 
+.team-list {
+    background-color: var(--c-background-light);
+}
+
 .member-title,
 .work-text {
     background-color: var(--c-background-light);
