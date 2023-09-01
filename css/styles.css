@@ -4,7 +4,7 @@
     --c-secondary: #4D5AE5;
     --c-primary-light: #8E8F99;
     --c-background: #F4F4FD;
-    --c-background-light: #FFF;
+    --c-background-light: #FFFFFF;
     --c-hover: #404BBF;
     --c-logo: #4d5ae5;
     --f-family: 'Roboto';
@@ -151,8 +151,7 @@ body {
 
 
 .member-title,
-.service-title
- {
+.service-title {
     color: var(--c-brand);
     background-color: var(--c-background-light);
     font-size: 20px;
